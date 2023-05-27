@@ -618,7 +618,7 @@ MainSection:NewButton("Chat Spoofer", "F", function()
 end)
 
 MainSection:NewButton("Auratus X", "OP Universal Hub", function()
-    loadstring(game:HttpGet(('https://pastefy.ga/n42Ougzx/raw'),true))()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoulessShxdow/KillStreakkzz/main/Auratus%20X"),true))()
 end)
 
 
