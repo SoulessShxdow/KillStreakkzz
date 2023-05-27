@@ -621,6 +621,10 @@ MainSection:NewButton("Auratus X", "OP Universal Hub", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoulessShxdow/KillStreakkzz/main/Auratus%20X"),true))()
 end)
 
+MainSection:NewButton("Ez Hub", "150+ games", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+end)
+
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
