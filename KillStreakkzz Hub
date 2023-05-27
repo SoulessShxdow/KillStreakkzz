@@ -617,6 +617,10 @@ MainSection:NewButton("Chat Spoofer", "F", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
 end)
 
+MainSection:NewButton("Auratus X", "OP Universal Hub", function()
+    loadstring(game:HttpGet(('https://pastefy.ga/n42Ougzx/raw'),true))()
+end)
+
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
