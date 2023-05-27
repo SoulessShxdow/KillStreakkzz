@@ -625,6 +625,10 @@ MainSection:NewButton("Ez Hub", "150+ games", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 end)
 
+MainSection:NewButton("CanHub", "A **universal scripthub** is CanHub. The best script for the game you're playing is automatically selected by CanHub from a database, and you can inject it. You can open a ticket to request the addition of your scripts. Universal scripts are yet another functionality offered by CanHub. The universal section receives regular updates, new scripts, and the finest scripts. Send it to us if you have a better script for that button, and we'll include it.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/stuffman0001/CanHub/main/Code"))()
+end)
+
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
