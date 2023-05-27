@@ -639,12 +639,14 @@ end)
 local Basic = Window:NewTab("Basic")
 local BasicSection = Tab:NewSection("Basic")
 
-BasicSection:NewButton("Infinite Yield", "ButtonInfo", function()
+BasicSection:NewButton("Infinite Yield", "h", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
-BasicSection:NewButton("CMD-X", "ButtonInfo", function()
+BasicSection:NewButton("CMD-X", "h", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
 
-BasicSection:NewButton("Dex Explorer V5", "ButtonInfo", function()
+BasicSection:NewButton("Dex Explorer V5", "h", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
 end)
