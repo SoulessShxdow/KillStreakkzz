@@ -644,9 +644,7 @@ BasicSection:NewButton("Infinite Yield", "ButtonInfo", function()
 
 BasicSection:NewButton("CMD-X", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
-end)
 
 BasicSection:NewButton("Dex Explorer V5", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
-end)
 end)
