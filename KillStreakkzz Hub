@@ -9,7 +9,7 @@ MainSection:NewButton("TouchFling", "Flings people", function()
     loadstring(game:HttpGet(('https://pastefy.ga/n42Ougzx/raw'),true))()
 end)
 
-MainSection:NewButton("Shiftlock", "ShoftLock ofc", function()
+MainSection:NewButton("Shiftlock", "ShiftLock ofc", function()
     -- Gui to Lua
 -- Version: 3.2
 
@@ -613,11 +613,7 @@ end
 end
 end)
 
-MainSection:NewButton("Chat Spoofer", "💬 A clean, minimalistic interface to spoof chat messages as other players (or even as "Roblox" or "Server"). It's pretty unnoticeable when people are reading quickly.
-
-📜 The maximum character length is 39 characters. The UI will inform you when you reach the maximum.
-
-❓ Information about each text field can be read by pressing the three dots on the field.", function()
+MainSection:NewButton("Chat Spoofer", "F", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
 end)
 
@@ -643,13 +639,14 @@ end)
 local Basic = Window:NewTab("Basic")
 local BasicSection = Tab:NewSection("Basic")
 
-MainSection:NewButton("Infinite Yield", "ButtonInfo", function()
+BasicSection:NewButton("Infinite Yield", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
-MainSection:NewButton("CMD-X", "ButtonInfo", function()
+BasicSection:NewButton("CMD-X", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 end)
 
-MainSection:NewButton("Dex Explorer V5", "ButtonInfo", function()
+BasicSection:NewButton("Dex Explorer V5", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+end)
 end)
