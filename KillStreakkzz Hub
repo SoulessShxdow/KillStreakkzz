@@ -275,7 +275,7 @@ MainSection:NewButton("VG Hub", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
 end)
 
-MainSection:NewButton("Backdoor.exe", "ButtonInfo", function()
+MainSection:NewButton("Backdoor", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
 end)
 
