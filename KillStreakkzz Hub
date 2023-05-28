@@ -633,6 +633,14 @@ MainSection:NewButton("CanHub", "A **universal scripthub** is CanHub. The best s
     loadstring(game:HttpGet("https://raw.githubusercontent.com/stuffman0001/CanHub/main/Code"))()
 end)
 
+MainSection:NewButton("Pedro.exe", "Universal translator", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/Q0VdG4AL'),true))()
+end)
+
+MainSection:NewButton("Translator", "Fe translator", function()
+    loadstring(game:HttpGet(('https://controlc.com/5c9442a3i'),true))()
+end)
+
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
