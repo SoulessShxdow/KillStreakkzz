@@ -1026,6 +1026,10 @@ BindHook['Event']:Connect(function()
 end)
 end)
 
+MainSection:NewButton("Universal Hub", "UNIVERSAL SCRIPT?", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/main/Universal"))()
+end)
+
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
