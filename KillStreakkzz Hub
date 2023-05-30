@@ -1072,6 +1072,10 @@ MainSection:NewButton("Bloodbath", "Bloxfruits script", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/SoulessShxdow/KillStreakkzz/main/Blox%20Fruits%20Hub'),true))()
 end)
 
+MainSection:NewButton("BloodBathScript", "Key for the script for bloxfruits", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com'),true))()
+end)
+
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
