@@ -1030,6 +1030,40 @@ MainSection:NewButton("Universal Hub", "UNIVERSAL SCRIPT?", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/main/Universal"))()
 end)
 
+MainSection:NewButton("Chat Bypasser", "UNIVERSAL SCRIPT", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
+end)
+
+MainSection:NewButton("Invisibility", "UNIVERSAL SCRIPT", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+end)
+
+MainSection:NewButton("Ready PLayer 2 Hub", "Hub for Ready Player 2 Games!", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Rp2 Hub", "Ocean")
+
+local Tab = Window:NewTab("Rp2 Scripts")
+local MainSection = Tab:NewSection("Rp2 Scripts")
+
+
+
+MainSection:NewButton("Rp2pig", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0piggy2", true))()
+end)
+
+MainSection:NewButton("Rp2RHS", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MaksBloxX/NoClipScript/main/Fly%20V3", true))()
+end)
+
+MainSection:NewButton("Rp2DQ", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MaksBloxX/NoClipScript/main/Dungeon%20Quest%20Ready%20Player%20two", true))()
+end)
+
+MainSection:NewButton("Rp2SB", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MaksBloxX/NoClipScript/main/Fly%20V3", true))()
+end)
+end)
+
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
