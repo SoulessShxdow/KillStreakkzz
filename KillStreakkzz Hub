@@ -1065,11 +1065,11 @@ end)
 end)
 
 MainSection:NewButton("Avatar Builder", "Made by rouxhaver", function()
-    loadstring(game:HttpGet(('https://pastefy.ga/n42Ougzx/raw'),true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rouxhaver/scripts-3/main/FE%20character%20creator.lua'),true))()
 end)
 
-MainSection:NewButton("Bloodbath", "Bloxfrutis script", function()
-    loadstring(game:HttpGet(('https://pastefy.ga/n42Ougzx/raw'),true))()
+MainSection:NewButton("Bloodbath", "Bloxfruits script", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/SoulessShxdow/KillStreakkzz/main/Blox%20Fruits%20Hub'),true))()
 end)
 
 
