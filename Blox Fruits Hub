@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Bloxfruits Hub", "BloodTheme")
+
+local Tab = Window:NewTab("Scripts")
+local MainSection = Tab:NewSection("Scripts")
+
+
+
+MainSection:NewButton("Blox Fruits V2 script", "bloodbath", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pa1nx/BloodBathScripts/main/BloxFruits"))() 
+end)
+
+MainSection:NewButton("Blox Fruits Auto fruit finder", "bloodbath", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Pa1nx/BloodBathScripts/main/BloxFruit/FruitFinder'))()
+end)
+
+MainSection:NewButton("Blox Fruits Auto fruit finder notification", "bloodbath", function()
+    _G.WebHook = "WebHookURLHere"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pa1nx/BloodBathScripts/main/BloxFruit/FruitFinderNotification'))()
+end)
