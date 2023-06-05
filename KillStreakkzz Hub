@@ -6,7 +6,7 @@ local MainSection = Tab:NewSection("Scripts")
 
 
 MainSection:NewButton("TouchFling", "Flings people", function()
-    loadstring(game:HttpGet(('https://pastefy.ga/n42Ougzx/raw'),true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
 end)
 
 MainSection:NewButton("Shiftlock", "ShiftLock ofc", function()
