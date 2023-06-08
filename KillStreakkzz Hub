@@ -1076,6 +1076,12 @@ MainSection:NewButton("BloodBathScript", "Key for the script for bloxfruits", fu
     loadstring(game:HttpGet(('https://raw.githubusercontent.com'),true))()
 end)
 
+MainSection:NewButton("AVENGE ME", "AVENGE ME!!!!!11!!!1!11!!!!!!1", function()
+    while true do
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("AVENGE KILLSTREAKZ", "All")
+    wait(3)
+end
+end)
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
