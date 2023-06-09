@@ -1076,13 +1076,6 @@ MainSection:NewButton("BloodBathScript", "Key for the script for bloxfruits", fu
     loadstring(game:HttpGet(('https://raw.githubusercontent.com'),true))()
 end)
 
-MainSection:NewButton("AVENGE ME", "AVENGE ME!!!!!11!!!1!11!!!!!!1", function()
-    while true do
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("AVENGE KILLSTREAKZ", "All")
-    wait(3)
-end
-end)
-
 MainSection:NewButton("auto report", "yes", function()
     getgenv().autoreportcfg = {
     Webhook = "https://discord.com/api/webhooks/1116494039592730744/lw-CvcZtAy0UlIz8p6Z9JWgjA5u0kYUSEQUk_ycq3KecMwZAe6p84GpdCb-gZ8Bpf10t", -- you can leave it empty if u want ingame notifs 
@@ -1094,6 +1087,15 @@ MainSection:NewButton("auto report", "yes", function()
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/main.lua"))()
 end)
+
+MainSection:NewButton("Grammarly", "auto grammar script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/wpUuVnQd"))()
+end)
+
+MainSection:NewButton("OpenAI", "ChatGPT", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BillsTheGod/V3RMILLION_PROJECTS/57db19ab7db57693365d6f492087a09e88ee425a/OpenAI.lua"))()
+end)
+
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
