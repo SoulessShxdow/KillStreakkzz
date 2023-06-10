@@ -1196,6 +1196,10 @@ MainSection:NewButton("Roji Ball", "script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0roji"))()
 end)
 
+MainSection:NewButton("Rainbow Friends 2", "script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0rainbow'))()
+end)
+
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
 local PlayerSection = Tab:NewSection("Player")
