@@ -1200,6 +1200,14 @@ MainSection:NewButton("Rainbow Friends 2", "script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0rainbow'))()
 end)
 
+MainSection:NewButton("Car", "script", function()
+    loadstring(game:HttpGet('https://pastebin.com/ehxcGPnh'))()
+end)
+
+MainSection:NewButton("Remote Spy", "script", function()
+    loadstring(game:HttpGet('https://controlc.com/ac701120'))()
+end)
+
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
 local PlayerSection = Tab:NewSection("Player")
