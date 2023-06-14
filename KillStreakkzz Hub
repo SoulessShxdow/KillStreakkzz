@@ -1201,7 +1201,7 @@ MainSection:NewButton("Rainbow Friends 2", "script", function()
 end)
 
 MainSection:NewButton("Car", "script", function()
-    loadstring(game:HttpGet('https://pastebin.com/ehxcGPnh'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
 end)
 
 MainSection:NewButton("Remote Spy", "script", function()
