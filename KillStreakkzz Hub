@@ -1298,6 +1298,10 @@ if ToEnable.FullBright then
 end
 end)
 
+MainSection:NewButton("R6 for r15", "script", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-R6-ANIMATIONS-FOR-R15-CHARACTERS-NO-REANIMATION-11272"))()
+end)
+
 
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
