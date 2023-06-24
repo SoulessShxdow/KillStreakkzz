@@ -1031,7 +1031,7 @@ MainSection:NewButton("Universal Hub", "UNIVERSAL SCRIPT?", function()
 end)
 
 MainSection:NewButton("Chat Bypasser", "UNIVERSAL SCRIPT", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4694/19918/VadriftsV2[ChatBypasser].lua'))()
 end)
 
 MainSection:NewButton("Invisibility", "UNIVERSAL SCRIPT", function()
